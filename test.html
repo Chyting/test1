@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>这是一个测试小功能</title>
     <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #bigbox {
+        width: 100%;
+      }
       #app {
         width: 200px;
         height: 200px;
-        float: left;
+        margin: 0 auto;
+        display: block;
         background-color: skyblue;
-      }
-      #app1 {
-        width: 200px;
-        height: 200px;
-        float: left;
-        background-color: blueviolet;
       }
     </style>
   </head>
   <body>
-    <div id="app">
-      我是第一个小盒子
-    </div>
-
-    <div id="app1">
-      我是第二个盒子
+    <div id="bigbox">
+      <div id="app">
+        我是第一个小盒子
+      </div>
     </div>
   </body>
 </html>
